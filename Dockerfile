@@ -1,5 +1,5 @@
-FROM docker:latest
-#FROM alpine:latest
+FROM docker:latest 
+#FROM alpine:latest 
 LABEL maintainer="Peter <zzz@zxz.kr>"
 
 RUN apk add --no-cache --update git bash unzip curl openssh-server openssh-client openssl openrc jq
